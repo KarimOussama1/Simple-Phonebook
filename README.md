@@ -4,7 +4,7 @@ It is a simple yet modern phonebook to create contact and add multiple numbers f
 
 
 ## Database Schema
-![Database ERD Diagram](DB_diagram.png)
+![DB_Diagram](https://user-images.githubusercontent.com/94204070/232232280-20d2625c-95a3-474d-bf1e-f058fb9f733b.png)
 ## Repository Tree
 ```
 Simple Phonebook
