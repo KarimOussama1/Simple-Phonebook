@@ -1,0 +1,22 @@
+{% extends 'header.html' %}
+
+{% block content %}
+
+<div class="container py-5">
+    <h1 class="display-3">All Contacts</h1>
+    <div class="row">
+        <table class="table table-striped">
+            <thead class="thead-dark">
+                <th class="lead">Name</th>
+            </thead>
+            <tbody>
+                {% for field in contacts %}
+                    <td><a href="{% url "phonebook:contact_detail" id=field.id %}">{{ field.name|default_if_none:'' }}</a></td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+
+{% endblock content %}
