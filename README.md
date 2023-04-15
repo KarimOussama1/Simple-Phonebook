@@ -48,11 +48,19 @@ See the [Docker website](http://www.docker.io/gettingstarted/#h_installation) fo
 
 ## Installation
 
-You simply need to build and run the `docker-compose.yml` file using the following commands:
+1. Clone this repo
+
+```
+git clone https://github.com/KarimOussama1/Simple-Phonebook.git
+```
+
+2. Navigate to the cloned repo
+
+3. Simply you need to build and run the `docker-compose.yml` file using the following commands:
 
 ```bash
   docker-compose build
   docker-compose up
 ```
 
-Once it is finished, Navigate to http://localhost:8000 in your web browser to use the Phonebook app.
+4. Once it is finished, Navigate to http://localhost:8000 in your web browser to use the Phonebook app.
